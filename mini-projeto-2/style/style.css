@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#Cabeçalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Cabeçalho h1 {
+    width: 90%;
+    padding-left: 5%;
+    font-size: 350%;
+    color: darkblue;
+}
+#Cabeçalho nav {
+    padding-right: 5%;
+    justify-content: space-around;
+}
+#Cabeçalho ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#Cabeçalho li {
+    padding: 0% 5%;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#Cabeçalho a {
+    text-decoration: none;
+    color: mediumblue;
+}
+#Main {
+    width: 100%;
+    padding: 1% 0%;
+    align-items: center;
+}
+#Main h2 {
+    padding-left: 1%;
+    font-size: 200%;
+    color: blue;
+    text-decoration: underline;
+}
+#Main p {
+    padding: 0% 3%;
+    font-size: 110%;
+    color: dodgerblue;
+}
+#Footer {
+    width: 100%;
+    padding: 1% 0%;
+}
+#Footer p {
+    padding-right: 5%;
+    font-size: 90%;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+    text-align: end;
+}
+@media screen and (max-width: 900px) {
+    body {
+        width: 100%;
+        flex-direction: column;
+        font-size: 70%;
+        margin: 0%;
+        padding: 0%;
+    }
+    #Cabeçalho {
+        display: flex;
+        flex-direction: column;
+    }
+    #Cabeçalho h1 {
+        font-size: 250%;
+        justify-content: left;
+    }
+    #Cabeçalho nav {
+        width: 100%;
+    }
+    #Cabeçalho ul {
+        width: 80%;
+        justify-content: space-around;
+    }
+    #Cabeçalho li {
+        font-size: 160%;
+    }
+    #Main {
+        flex-direction: column;
+    }
+    #Main h2 {
+        font-size: 160%;
+    }
+    #Main p {
+        width: 90%;
+        font-size: 130%;
+    }
+    #Footer p {
+        font-size: 130%;
+        padding-right: 5%;
+    }
+}
