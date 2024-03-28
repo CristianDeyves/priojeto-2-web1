@@ -29,7 +29,6 @@ button {
 }
 #DadosPessoais {
     width: 100%;
-    background-color: red;
     color: black;
     padding: 2% 3%;
     margin: 0%;
@@ -39,7 +38,6 @@ button {
 }
 #Endereco {
     width: 100%;
-    background-color: green;
     color: black;
     padding: 2% 3%;
     margin: 0%;
@@ -49,7 +47,6 @@ button {
 }
 #DadosSociais {
     width: 100%;
-    background-color: gold;
     color: black;
     padding: 2% 3%;
     margin: 0%;
@@ -59,7 +56,6 @@ button {
 }
 #Botoes {
     width: 100%;
-    background-color: blueviolet;
     padding: 2% 3%;
     margin: 0%;
     display: flex;
@@ -69,6 +65,7 @@ button {
     width: 100%;
     padding: 1%;
     bottom: 0%;
+    background-color: dodgerblue;
 }
 #Footer p {
     padding-right: 5%;
